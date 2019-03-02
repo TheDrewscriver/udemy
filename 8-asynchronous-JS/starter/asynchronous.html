@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asynchronous JavaScript</title>
+</head>
+<body>
+    <h1>Asynchronous JavaScript</h1>
+    <script>
+    const getIDs=new Promise((resolve, reject)=> {
+            setTimeout(()=>{
+                resolve([523,883,432,974]);
+                //reject("Failed ");
+            },1500,);
+    } );
+
+    const getRecipe= recId => {
+        return new Promise((resolve, reject) =>{
+            setTimeout(ID =>{
+                const recipe={title: 'Fresh Tomato pasta', publisher: 'Jonas'};
+                resolve(`${ID}: ${recipe.title}`);
+            },1500, recID);
+        });
+    };
+
+    // async function getRecipesAW(){
+    //     const IDs = await getIDs;
+    //     console.log(IDs);
+    // };
+
+    /*
+    fetch(input: RequestInfo, init?: RequestInit): Promise<Response>
+     */   
+
+    // getRecipesAW();
+
+   const t= fetch ('http://crossorigin.me/https://www.metaweather.com/api/location/2487956/').then( result => {
+    console.log(result);
+   });
+   
+    </script>
+</body>
+</html>

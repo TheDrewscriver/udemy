@@ -1,0 +1,1427 @@
+{
+    "jsonrpc": "2.0",
+    "id": "1",
+    "result": {
+        "id": "cc874200-3a03-11e9-9908-7845c4fb7bf4",
+        "meta": "773",
+        "broadcast": {
+            "onFail": 0,
+            "onDone": 1
+        },
+        "plugIns": [
+            {
+                "type": "element",
+                "tagId": 10473,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3865",
+                    "tv": 1,
+                    "tdv": "202cb050-20c3-11e6-b9ea-0026b9f99174"
+                },
+                "tagName": "AMER HVE MCT Conditional Fire Share [13044]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": false,
+                "events": [
+                    {
+                        "css": "#\\32 ea8228f-38aa-43d0-990c-372c41b3849c-reaction1-icon",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#\\32 ea8228f-38aa-43d0-990c-372c41b3849c-reaction1-linkedin_img",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#\\35 2cce639-458a-41ef-81ca-d86d172d2d65-reaction1",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#\\35 2cce639-458a-41ef-81ca-d86d172d2d65-reaction1-linkedin_img",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#b009b982-124d-4ecc-82e0-a1866f06bc06 > div:nth-child(1)",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#b009b982-124d-4ecc-82e0-a1866f06bc06 > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)",
+                        "e": "click"
+                    },
+                    {
+                        "css": ".gig-button > table > tbody > tr > td",
+                        "e": "click"
+                    },
+                    {
+                        "css": ".gig-simpleShareUI-buttonText-facebook",
+                        "e": "click"
+                    },
+                    {
+                        "css": "[class*=\"tabbing-button\"]",
+                        "e": "click"
+                    },
+                    {
+                        "css": "b009b982-124d-4ecc-82e0-a1866f06bc06 > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)",
+                        "e": "click"
+                    }
+                ],
+                "location": true,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "0",
+                            "13044",
+                            "hve_conditional_mct_share.html"
+                        ],
+                        "search": [
+                            {
+                                "func": "(function(){return function(input){if(_.isSet(input.pg)){input.roi.unshift(['page_name',input.pg])}if(_.isSet(input.mpuid)){input.roi.push(['mpuid',input.mpuid.join(input.del)])}return _.toQueryString(input.roi)}}());",
+                                "args": [
+                                    "{\"mpuid\":[[\"731063520\"]],\"del\":\"\",\"roi\":[[\"hve_share\",\"1\"]],\"pg\":\"hve_share\"}"
+                                ]
+                            }
+                        ],
+                        "origin": "https://secure.img-cdn.mediaplex.com"
+                    },
+                    "tag": "iframe"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 5037,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "2559",
+                    "tv": 4
+                },
+                "tagName": "US Invite Media Black Friday",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//ad.doubleclick.net/activity;src=3776295;type=sales;cat=xwmeneds;qty=[Quantity];cost=[Revenue];ord=[OrderID]?\" width=\"1\" height=\"1\" alt=\"\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 5038,
+                "fastfire": true,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 1
+                },
+                "tagName": "US ROI SVI",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": false,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "ad/bk/12309-73735-3840-0"
+                        ],
+                        "search": [
+                            "SVI=1",
+                            {
+                                "func": "(function(){return function(i){return'mpuid='+(_.isSet(i.mpuid)?i.mpuid.join(_.isSet(i.del)?i.del:';'):'')}}());",
+                                "args": [
+                                    {
+                                        "interp": "{\"mpuid\":[[${m0}]],\"del\":\"^\"}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "origin": "https://adfarm.mediaplex.com"
+                    },
+                    "tag": "img"
+                },
+                "dataDef": [
+                    {
+                        "type": "cke",
+                        "value": "s_vi",
+                        "dataType": "string"
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 5202,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "2559",
+                    "tv": 4
+                },
+                "tagName": "US MediaMath Black Friday",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src='//pixel.mathtag.com/event/img?mt_id=614199&mt_adid=106823&v1=&v2=&v3=&s1=&s2=&s3=' width='1' height='1' />"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 5204,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "2559",
+                    "tv": 4
+                },
+                "tagName": "US Google Smart Pixel Black Friday Copy 2",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/1006166411/?label=e_v0CNWUqgMQi8Pj3wM&guid=ON&script=0&data=pagetype%3Dcontent&url=https://deals.dell.com/en-us#\\47\\42\\55\\55\\41\\76\\74Details\\40Open\\40OnToggle\\75confirm\\140\\113\\140\\76\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 5205,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "2559",
+                    "tv": 4
+                },
+                "tagName": "US Bluekai Black Friday",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": {
+                        "interp": "<script type=\"text/javascript\">\n\nvar bluekai_url = \"tags.bluekai.com/site/14435?phint=v1%3D${c0}&phint=v2%3D&phint=v3%3DblackFriday&phint=v4%3D&phint=v5%3D&phint=v6%3D&phint=v7%3D${c1}&phint=v8%3D&phint=v9%3D&phint=v10%3Ddeals.dell.com&phint=v11%3Den&phint=v12%3Dus&phint=v13%3Dhttps://deals.dell.com/en-us#\\47\\42\\55\\55\\41\\76\\74Details\\40Open\\40OnToggle\\75confirm\\140\\113\\140\\76&phint=v14%3Ddesktop&phint=${c2}&category_id=&phint=s\";\n\n            if (window.location.protocol == \"https:\") {\n                document.write(\"<img src = https://s\" + bluekai_url + \"/>\");\n            } else {\n                document.write(\"<img src = http://\" + bluekai_url + \"/>\");\n            }\n\n</script>"
+                    }
+                },
+                "dataDef": [
+                    {
+                        "type": "obj",
+                        "value": "priceBand.Segment",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "cs",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "s_vi",
+                        "dataType": "string"
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 7046,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248,5602",
+                    "tv": 4,
+                    "tdv": "1cd96c90-9b57-11e6-b0bd-0026b9f99174"
+                },
+                "tagName": "US SundaySky Dell.com Content ALL Systems ~ Desktop",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script type=\"text/javascript\">/* <![CDATA[ */ var SSKY = SSKY || [];(function(d) {var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src =('https:' == d.location.protocol ? 'https://dds6m601du5ji.cloudfront.net' :'http://cdn1-res.sundaysky.com') + '/vop/t.js'; var n = d.getElementsByTagName('script')[0]; n.parentNode.insertBefore(s, n);})(document);/* ]]> */</script>\n\n<script type=\"text/javascript\">\nSSKY.push([\"t.browse\", {\n    account: \"dell\",\n    profile: \"1\",\n    ver: \"retail\",\n    user_id: \"\",\n    attrs: {\n        pv: \"\",   //If on a product page the OrderCode/Creative_Set\n        pricev: \"\",  //If on a product page\n        cat: \"Shop All Deals\", //desktop, laptop, tablet\n        fam: \"\",   //alienware-desktops|gaming-desktops, alienware-laptops|gaming-laptops, all-in-one-desktops|desktops-performance|touch-screen-desktops, dell-venue-tablets-dhs-us, desktops-performance, inspiron-desktops, inspiron-laptops, xps-laptops\n        pgtyp: \"4\", //deals, category, family, product\n        pgnm: \"\",\n        seg: \"DHS\",\n        pvseg: \" + DHS\"\n    }\n}]);\n\n</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 8474,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248,5602",
+                    "tv": 27,
+                    "tdv": "5ebbac50-c468-11e7-b832-1803730eb7d5"
+                },
+                "tagName": "US MediaMath Dell.com Content ALL Systems/EnA ~ ~ [xxx]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "event",
+                            "js"
+                        ],
+                        "search": [
+                            "mt_id=776221",
+                            "mt_adid=129805",
+                            "mt_exem=",
+                            {
+                                "func": "(function(){return function(n){var r=_.chain(n).map(function(n,r){return _.isSet(n)?['v'+(r+1),n]:''}).value();return _.toQueryString(r)}}());",
+                                "args": [
+                                    "[[\"\"],[\"Shop%20All%20Deals\"],[\"\"],[\"\"],[\"US\"],[\"EN\"],[\"19\"],[\"DHS\"],[\"special%20events\"]]"
+                                ]
+                            },
+                            {
+                                "func": "(function(){return function(n){var r=_.chain(n).map(function(n,r){return _.isSet(n)?['s'+(r+1),n]:''}).value();return _.toQueryString(r)}}());",
+                                "args": [
+                                    "[[\"https%3A%2F%2Fdeals.dell.com%2Fen-us%23%5C47%5C42%5C55%5C55%5C41%5C76%5C74Details%5C40Open%5C40OnToggle%5C75confirm%5C140%5C113%5C140%5C76\"],[\"\"],[\"4\"],[\"\"],[\"CONFIG\"],[\"\"],[\"\"],[\"Shop%20All%20Deals\"],[\"\"],[\"\"]]"
+                                ]
+                            }
+                        ],
+                        "origin": "https://pixel.mathtag.com"
+                    },
+                    "tag": "script"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 8565,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "2559",
+                    "tv": 4,
+                    "tdv": "02a26410-23c0-11e8-9b21-0026b9f99174"
+                },
+                "tagName": "US Facebook Deals MPP Black Friday",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=1573228282953205&ev=PageView&cd[content_ids]=&cd[content_type]=product&noscript=1\" />"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 8694,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "4122",
+                    "tv": 4
+                },
+                "tagName": "US SundaySky Dell.com Deals DHS Systems ~ Desktop",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script type=\"text/javascript\">/* <![CDATA[ */ var SSKY = SSKY || [];(function(d) {var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src =('https:' == d.location.protocol ? 'https://dds6m601du5ji.cloudfront.net' :'http://cdn1-res.sundaysky.com') + '/vop/t.js'; var n = d.getElementsByTagName('script')[0]; n.parentNode.insertBefore(s, n);})(document);/* ]]> */</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 9306,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 40,
+                    "tdv": "b87d2280-5fd9-11e7-8c10-1803730eb7d5"
+                },
+                "tagName": "US Bluekai Dell.com ALL Systems/EnA ~ ~ (14435)",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "postBuild": {
+                    "func": "(function(){return function(a,s){var e=window,t=$('<iframe/>',{name:'__bkframe',frameborder:0,style:'display:none;position:absolute;clip:rect(0px 0px 0px 0px)',src:'about:blank'})[0];t.height=0,t.width=0,$(e.document.body).append(t),_.each(a.context,function(a){_.isSet(a[0])&&e.bk_addPageCtx(a[0],a[1])}),e.bk_meta_vars=_.chain(a.meta_vars).filter(_.isSet).flatten().value(),e.bk_js_list=_.chain(a.js_list).filter(_.isSet).flatten().value(),_.isSet(a.bk_addEmailHash)&&e.bk_addEmailHash(a.bk_addEmailHash),_.isSet(a.bk_addPhoneHash)&&e.bk_addPhoneHash(a.bk_addPhoneHash),_.each(s,function(a,s){e[s]=_.isTrue(a)}),e.bk_doJSTag(a.siteId,a.limit)}}());",
+                    "args": [
+                        {
+                            "interp": "{\"context\":[[\"v1\",\"DHS\"],[\"v2\",\"special events\"],[\"v3\",\"4\"],[\"v4\",\"\"],[\"v5\",\"\"],[\"v6\",\"\"],[\"v7\",\"19\"],[\"v8\",\"\"],[\"v9\",\"\"],[\"v10\",${m0}],[\"v11\",\"EN\"],[\"v12\",\"US\"],[\"v13\",\"https://deals.dell.com/en-us#\\\\47\\\\42\\\\55\\\\55\\\\41\\\\76\\\\74Details\\\\40Open\\\\40OnToggle\\\\75confirm\\\\140\\\\113\\\\140\\\\76\"],[\"category_id\",${m1}],[\"s\",${m2}]],\"siteId\":\"14435\",\"limit\":\"5\",\"meta_vars\":\"\",\"js_list\":\"\",\"bk_addEmailHash\":\"\",\"bk_addPhoneHash\":\"\"}"
+                        },
+                        "{\"bk_allow_multiple_calls\":\"0\",\"bk_use_multiple_iframes\":\"0\",\"bk_ignore_meta\":\"0\",\"bk_use_first_party\":\"0\",\"bk_send_statid_payload\":\"0\",\"bk_suppress_multiple_calls\":\"0\",\"bk_suppress_first_party\":\"0\",\"bk_suppress_statid_payload\":\"0\",\"bk_suppress_event_scheduling\":\"0\",\"bk_suppress_cache_busting\":\"0\"}"
+                    ]
+                },
+                "location": true,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "js",
+                            "bk-coretag.js"
+                        ],
+                        "origin": "https://tags.bkrtx.com"
+                    },
+                    "tag": "script"
+                },
+                "dataDef": [
+                    {
+                        "type": "obj",
+                        "value": "window.location.hostname",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "category_id",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "dmp",
+                        "dataType": "string"
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 9408,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4
+                },
+                "tagName": "US WyWy Dell.com Content DHS ~ ~ ~",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script type=\"text/javascript\">\n(function(a,c,d,e,b){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};t=c.createElement(d);t.async=1;t.src=e;f=c.getElementsByTagName(d)[0];f.parentNode.insertBefore(t,f)})(window,document,\"script\",\"https://static.wywy.com/tracker.js\",\"_wywy\");\n_wywy(\"c\",\"352144\");\n</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 9515,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "65ddab90-0050-11e8-ae0a-1803730eb7d5"
+                },
+                "tagName": "US Bluekai Dell.com ALL Systems/EnA ~ ~ (14435) - Custom",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": {
+                        "interp": "<iframe name=\"__bkframe\" height=\"0\" width=\"0\" frameborder=\"0\"\nstyle=\"display:none;position:absolute;clip:rect(0px 0px 0px 0px)\"\nsrc=\"about:blank\"></iframe>\n<script type=\"text/javascript\"\nsrc=\"https://tags.bkrtx.com/js/bk-coretag.js\"></script>\n<script type=\"text/javascript\">\n// monitors with inches in family name was breaking tag\nvar f = '';\nf = f.replace(/\"/, '');\n\n\nbk_addPageCtx(\"v1\", \"DHS\");\nbk_addPageCtx(\"v2\", \"special events\");\nbk_addPageCtx(\"v3\", \"4\");\nbk_addPageCtx(\"v4\", \"\");\nbk_addPageCtx(\"v5\", '');\nbk_addPageCtx(\"v6\", '');\nbk_addPageCtx(\"v7\", \"19\");\nbk_addPageCtx(\"v8\", \"\");\nbk_addPageCtx(\"v9\", \"\");\nbk_addPageCtx(\"v10\", \"${c0}\");\nbk_addPageCtx(\"v11\", \"EN\");\nbk_addPageCtx(\"v12\", \"US\");\nbk_addPageCtx(\"v13\", \"https://deals.dell.com/en-us#\\47\\42\\55\\55\\41\\76\\74Details\\40Open\\40OnToggle\\75confirm\\140\\113\\140\\76\");\nbk_addPageCtx(\"v14\", \"Shop All Deals\");\nbk_addPageCtx(\"category_id\", \"${c1}\");\nbk_addPageCtx(\"s\", \"${c2}\");\nbk_doJSTag(14435,5);\n</script>"
+                    }
+                },
+                "dataDef": [
+                    {
+                        "type": "obj",
+                        "value": "window.location.hostname",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "category_id",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "dmp",
+                        "dataType": "string"
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 9716,
+                "fastfire": true,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3865",
+                    "tv": 1,
+                    "tdv": "65fcfd70-9894-11e7-a979-1803730eb7d5"
+                },
+                "tagName": "DIRECT ROI HVE Share Dell.com",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": false,
+                "events": [
+                    {
+                        "css": "#\\32 ea8228f-38aa-43d0-990c-372c41b3849c-reaction1-icon",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#\\32 ea8228f-38aa-43d0-990c-372c41b3849c-reaction1-linkedin_img",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#\\35 2cce639-458a-41ef-81ca-d86d172d2d65-reaction1",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#\\35 2cce639-458a-41ef-81ca-d86d172d2d65-reaction1-linkedin_img",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#b009b982-124d-4ecc-82e0-a1866f06bc06 > div:nth-child(1)",
+                        "e": "click"
+                    },
+                    {
+                        "css": "#b009b982-124d-4ecc-82e0-a1866f06bc06 > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)",
+                        "e": "click"
+                    },
+                    {
+                        "css": ".gig-button > table > tbody > tr > td",
+                        "e": "click"
+                    },
+                    {
+                        "css": ".gig-simpleShareUI-buttonText-facebook",
+                        "e": "click"
+                    },
+                    {
+                        "css": "[class*=\"tabbing-button\"]",
+                        "e": "click"
+                    },
+                    {
+                        "css": "b009b982-124d-4ecc-82e0-a1866f06bc06 > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)",
+                        "e": "click"
+                    }
+                ],
+                "location": false,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "ad/bk/25799-186420-3840-0"
+                        ],
+                        "search": [
+                            "Share=1&HVE=1&Share_dell=1&HVE_dell=1",
+                            {
+                                "func": "(function(){return function(i){return'mpuid='+(_.isSet(i.mpuid)?i.mpuid.join(_.isSet(i.del)?i.del:';'):'')}}());",
+                                "args": [
+                                    "{\"mpuid\":[[\"1133066624\"]],\"del\":\"\"}"
+                                ]
+                            }
+                        ],
+                        "origin": "https://adfarm.mediaplex.com"
+                    },
+                    "tag": "img"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 10446,
+                "fastfire": true,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 1,
+                    "tdv": "e0af08d0-9153-11e7-aaca-0026b9f99174"
+                },
+                "tagName": "US ROI AMCV",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": false,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "ad/bk/12309-73735-3840-0"
+                        ],
+                        "search": [
+                            "AMCV=1",
+                            {
+                                "func": "(function(){return function(i){return'mpuid='+(_.isSet(i.mpuid)?i.mpuid.join(_.isSet(i.del)?i.del:';'):'')}}());",
+                                "args": [
+                                    {
+                                        "interp": "{\"mpuid\":[[${m0}]],\"del\":\"\"}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "origin": "https://adfarm.mediaplex.com"
+                    },
+                    "tag": "img"
+                },
+                "dataDef": [
+                    {
+                        "type": "cke",
+                        "value": "AMCV_4DD80861515CAB990A490D45%40AdobeOrg",
+                        "dataType": "string"
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 11515,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3565",
+                    "tv": 4,
+                    "tdv": "283c3a60-6f63-11e6-8109-1803730eb7d5"
+                },
+                "tagName": "US Quantcast Dell.com ALL DHS Systems ~ Desktop [534] SC",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//pixel.quantserve.com/pixel/p-03ceqXq6mSzQk.gif?labels=_fp.event.Default\" style=\"display: none;\" border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 11933,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3565",
+                    "tv": 4,
+                    "tdv": "ed8f7030-1e35-11e7-80be-1803730eb7d5"
+                },
+                "tagName": "US Amobee Dell.com ALL DHS Systems ~ Desktop [301] SC",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img border=\"0\" src=\"https://r.turn.com/r/beacon?b2=bHYaLjAupBh4dUTo1hZ5CWHUbCQp0i47GeYL6WbiDf-fnoOTocNvFwEE4YgHHkvbKMQtJG_1FCNU1zV-BYbQuw&cid=\">"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 12819,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3389",
+                    "tv": 4,
+                    "tdv": "5e6e72d0-c2b3-11e6-acc9-0026b9f99174"
+                },
+                "tagName": "US Marin Dell.com Content BSD Systems ~ Desktop",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": false,
+                "events": [
+                    {
+                        "css": "a[href*=\".pdf.aspx\"]",
+                        "e": "click"
+                    }
+                ],
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//tracker.marinsm.com/tp?cid=901pdb6671&trans=UTM:I||fre_hve||||\" height=\"1\" width=\"1\" style=\"display:none\">"
+                },
+                "dataDef": [
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    }
+                ],
+                "conditionMap": "(0&&(((((((1||2)||3)||4)||5)||6)||7)||8))",
+                "conditions": [
+                    {
+                        "comparator": "regEx",
+                        "a": "/^12309/",
+                        "b": {
+                            "interp": "${c0}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/2056/",
+                        "b": {
+                            "interp": "${c1}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/27959/",
+                        "b": {
+                            "interp": "${c2}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/1039/",
+                        "b": {
+                            "interp": "${c3}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/2060/",
+                        "b": {
+                            "interp": "${c4}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/50141/",
+                        "b": {
+                            "interp": "${c5}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/46101/",
+                        "b": {
+                            "interp": "${c6}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/51727/",
+                        "b": {
+                            "interp": "${c7}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/46102/",
+                        "b": {
+                            "interp": "${c8}"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 14472,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "00843550-02b5-11e7-85b0-1803730eb7d5"
+                },
+                "tagName": "US Microsoft Dell.com ROS 5105719 Systems/EnA [SF00153863] ",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//bat.bing.com/action/0?ti=5105719&Ver=2\" height=\"0\" width=\"0\" style=\"display:none; visibility: hidden;\"/>\n"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 14475,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "4ea89360-02bb-11e7-85b0-1803730eb7d5"
+                },
+                "tagName": "US Microsoft Dell.com ROS 5102261 Systems/EnA [SF00153863] ",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//bat.bing.com/action/0?ti=5102261&Ver=2\" height=\"0\" width=\"0\" style=\"display:none; visibility: hidden;\" />"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 14508,
+                "fastfire": true,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3389",
+                    "tv": 9,
+                    "tdv": "e6beee00-0357-11e7-9396-0026b9f99174"
+                },
+                "tagName": "US Google Dell.com HVE Share/Download Systems ~ Desktop [SF00153843] ",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": false,
+                "events": [
+                    {
+                        "css": ".width-150",
+                        "e": "click"
+                    },
+                    {
+                        "css": "[class*=\"tabbing-button\"]",
+                        "e": "click"
+                    },
+                    {
+                        "css": "a[href*=\".pdf.aspx\"]",
+                        "e": "click"
+                    },
+                    {
+                        "css": "div.col-sm-3:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                        "e": "click"
+                    },
+                    {
+                        "css": "div.col-sm-3:nth-child(1) > div:nth-child(1) > span:nth-child(2) > a:nth-child(1) > i:nth-child(1)",
+                        "e": "click"
+                    }
+                ],
+                "location": false,
+                "attr": {
+                    "src": {
+                        "pathname": [
+                            "pagead/conversion",
+                            "963983584"
+                        ],
+                        "search": [
+                            "script=0",
+                            "guid=ON",
+                            "label=Mi2OCPn9im4Q4PHUywM"
+                        ],
+                        "origin": "https://www.googleadservices.com"
+                    },
+                    "tag": "img"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 14656,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "5602",
+                    "tv": 4,
+                    "tdv": "21c40b60-0e53-11e7-b6aa-1803730eb7d5"
+                },
+                "tagName": "US MediaIQ Dell.com Deals . . . ",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://secure.adnxs.com/px?id=815856&seg=7901510&t=2\" width=\"1\" height=\"1\"> "
+                },
+                "dataDef": [
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "cke",
+                        "value": "acd",
+                        "dataType": "string"
+                    }
+                ],
+                "conditionMap": "(0&&1)",
+                "conditions": [
+                    {
+                        "comparator": "regEx",
+                        "a": "/12309/",
+                        "b": {
+                            "interp": "${c0}"
+                        }
+                    },
+                    {
+                        "comparator": "regEx",
+                        "a": "/36162/",
+                        "b": {
+                            "interp": "${c1}"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 16333,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "5602",
+                    "tv": 4,
+                    "tdv": "16bde320-4ac7-11e7-94c1-1803730eb7d5"
+                },
+                "tagName": "US OwnerIQ Dell.com Content DHS EN Desktop [SF00157718]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://px.owneriq.net/ep?sid%5B%5D=6645414287&sid%5B%5D=6645414297&pt=dketzg\" width=\"1\" height=\"1\" style=\"display: none;\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 16463,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "5602",
+                    "tv": 4,
+                    "tdv": "20f0b020-8744-11e7-8c10-1803730eb7d5"
+                },
+                "tagName": "US MediaMath Dell.com Deals EN ~ ~ [SF00159470]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=776221&mt_adid=129805&mt_exem=&s1=https://deals.dell.com/en-us#\\47\\42\\55\\55\\41\\76\\74Details\\40Open\\40OnToggle\\75confirm\\140\\113\\140\\76&s2=&s3=4&s4=&s5=CONFIG&s7=&s8=Shop All Deals&s9=&s10=&v2=Shop All Deals&v5=US&v6=EN&v7=19&v8=DHS&v9=special events&v10='></script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 16680,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "93b77590-beed-11e7-b832-1803730eb7d5"
+                },
+                "tagName": "US Flashtalking Dell.com ALL Content/Basket Systems/EnA [SF 00161425]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<iframe style=\"position:absolute; visibility:hidden; width:1px; height:1px;\" src=\"https://servedby.flashtalking.com/container/4752;79818;8243;iframe/?spotName=Dell_US_CA_FT_Container_Aug17&U1=https://deals.dell.com/en-us#\\47\\42\\55\\55\\41\\76\\74Details\\40Open\\40OnToggle\\75confirm\\140\\113\\140\\76&U2=&U3=4&U4=&U5=CONFIG&U6=&U7=Shop All Deals&U8=&U9=&U10=Shop All Deals&U11=US&U12=EN&U13=19&U14=DHS&U15=special events&U16=&cachebuster=606803997\"></iframe>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 16726,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "5602",
+                    "tv": 4,
+                    "tdv": "b3f28960-204c-11e8-9b21-0026b9f99174"
+                },
+                "tagName": "US Flashtalking Dell.com Deals [SF 00161425]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<iframe style=\"position:absolute; visibility:hidden; width:1px; height:1px;\" src=\"//servedby.flashtalking.com/container/4752;79818;8243;iframe/?spotName=Dell_US_CA_FT_Container_Aug17&U1=https://deals.dell.com/en-us#\\47\\42\\55\\55\\41\\76\\74Details\\40Open\\40OnToggle\\75confirm\\140\\113\\140\\76&U2=&U3=4&U4=&U5=CONFIG\n&U6=&U7=Shop All Deals&U8=&U9=&U10=Shop All Deals&U11=US&U12=EN&U13=19&U14=DHS&U15=special events&U16=&cachebuster=140709640\"></iframe>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 18076,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "cc01a220-1afc-11e8-9b21-0026b9f99174"
+                },
+                "tagName": "US VIQ/Facebook Dell.com ROS [00166155]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://t.myvisualiq.net/sync?prid=123&ao=0&red=https%3A%2F%2Fwww.facebook.com%2Ftr%3Fid%3D324362141360991%26ev%3DPageView%26cd%5Border_id%5D%3D%24%7BUUID%7D\">"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 18116,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3565",
+                    "tv": 4,
+                    "tdv": "64950e90-dab7-11e7-ae0a-1803730eb7d5"
+                },
+                "tagName": "US Dell.com AOL DHS ROS",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://secure.leadback.advertising.com/adcedge/lb?site=695501&betr=sslbet_1512071092=ssprlb_1512071092[720]\" width=\"1\" height=\"1\" border=\"0\">"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 18379,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3565",
+                    "tv": 4,
+                    "tdv": "3b555540-02e3-11e8-9b21-0026b9f99174"
+                },
+                "tagName": "US AOL Dell.com DHS Systems/EnA EN Desktop [SF 00169205]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//sp.analytics.yahoo.com/spp.pl?a=10000&.yp=403570&ec=consumer\" height=\"1\" width=\"1\" style=\"display:none\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 18560,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "fd0992c0-15bf-11e8-9b21-0026b9f99174"
+                },
+                "tagName": "US Dell.com VIQ/TapAd ROS [SF00170411]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://tapestry.tapad.com/tapestry/1?ta_partner_id=950&ta_redirect=https%3A%2F%2Ft.myvisualiq.net%2Fsync%3Fprid%3D1001%26ao%3D0%26pruuid%3DTAPAD_%24%7BIDS%3Akey%7D\"></img>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 18766,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "f767d300-bfe6-11e8-976c-0026b9f99174"
+                },
+                "tagName": "US Dell.com/DellEMC.com/DT.com VIQ <> CNVR Sync Pixel [554IMG2018]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://t.myvisualiq.net/sync?prid=Test&ao=519&red=https%3A%2F%2Fadfarm.mediaplex.com%2Fad%2Fim%2F13044-85265-63530-0%3Fmpaltsys%3D46%26mpalt%3D%24%7BUUID%7D\" height=\"1\" width=\"1\" style=\"display:none;\">"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 18929,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "e17d1cc0-73e8-11e8-b344-1803730eb7d5"
+                },
+                "tagName": "US Google Dell.com Content ALL ~ Desktop",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/1006166411/?guid=ON&script=0&data=ecomm_prodid=;ecomm_pagetype=4;ecomm_seg=DHS;ecomm_family=;ecomm_category=Shop All Deals\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 19840,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "2559",
+                    "tv": 4,
+                    "tdv": "5d2e5610-8b5c-11e8-b866-1803730eb7d5"
+                },
+                "tagName": "US Adobe Dell.com Deals DHS Systems EN Desktop [419IMG2018]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"https://conv-tm.everesttech.net/stats/1/conv?cpk=ynBbaDNqg8GCIwhrBVpk&cak=uaUYDdcH3OvUcuDUe8LZ\" />"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 20185,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "c4569c50-b666-11e8-ba92-1803730eb7d5"
+                },
+                "tagName": "US CNVR Dell.com Brand Engagement Multipage View",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script>\n\nif (sessionStorage.BEpagecount)\n    {\n    sessionStorage.BEpagecount=Number(sessionStorage.BEpagecount) +1;\n    }\n    else\n    {\n    sessionStorage.BEpagecount=1;\n    }\n\n   \n    if (sessionStorage.BEpagecount == 2) {\n    //Fire ROI \t\n   var img = document.createElement('img');\n   src = \"https://adfarm.mediaplex.com/ad/bk/12309-73735-3840-0?brand_mpv=1&brand_mpv_DHS=1&mpuid=2134636372\"\n   img.setAttribute('src',src)\n    \n    }\n\n</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 20186,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "f73846a0-b666-11e8-ba92-1803730eb7d5"
+                },
+                "tagName": "US CNVR Dell.com Brand Engagement Site Visits",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script>\nif (!sessionStorage.BEsiteVisits || sessionStorage.BEsiteVisits == 0){\n  sessionStorage.BEsiteVisits = 0;\n    var svimg = document.createElement('img');\n    svsrc = \"https://adfarm.mediaplex.com/ad/bk/12309-73735-3840-0?brand_site_visits=1&brand_site_visits_DHS=1&mpuid=640942358\"\n    svimg.setAttribute('src',svsrc)\ntop.window.setInterval(sv_active, 1000);\n  function sv_active(){\n    if (sessionStorage.BEsiteVisits < 1800){\n      sessionStorage.BEsiteVisits=Number(sessionStorage.BEsiteVisits) +1;\n    }\n    else\n    {\n      clearInterval(sv_active);\n      sessionStorage.BEsiteVisits = 0;\n    }\n}\n}\n\n</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 20187,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "f4c8a960-b66a-11e8-ba92-1803730eb7d5"
+                },
+                "tagName": "US CNVR Dell.com Brand Engagement Time Spent",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script>\nif (!sessionStorage.BEts60 || sessionStorage.BEts60 == 1){\n  sessionStorage.BEts60 = 1;\ntop.window.setInterval(ts_active, 1000);\n  function ts_active(){\n    if (sessionStorage.BEts60 < 60){\n      sessionStorage.BEts60 = Number(sessionStorage.BEts60) +1;\n    }\n    else\n    {\n      var tsimg = document.createElement('img');\n    tssrc = \"https://adfarm.mediaplex.com/ad/bk/12309-73735-3840-0?brand_ts60=1&brand_ts60_DHS=1&mpuid=1166231175\"\n    tsimg.setAttribute('src',tssrc)\n      sessionStorage.BEts60 = 1;\n      clearInterval(ts_active);\n      return; \n    }\n}\n}\n\n</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 20471,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3565",
+                    "tv": 4,
+                    "tdv": "cef94e20-c8de-11e8-bc12-1803730eb7d5"
+                },
+                "tagName": "US Quantcast Dell.com Content/Basket ALL ~ Desktop [511IMG2018-00184927]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//pixel.quantserve.com/pixel/p-03ceqXq6mSzQk.gif?labels=_fp.event.4,_fp.pcat.Shop All Deals,_fp.prod.,_fp.seg.DHS,_fp.qty.,_fp.platform.special events,_fp.sku.\"   style=\"display: none;\" border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 20575,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "9556",
+                    "tv": 4,
+                    "tdv": "4d845030-ecdb-11e8-9081-1803730eb7d5"
+                },
+                "tagName": "Vendor Click ID Cookie - HTTPS - 773 - ALL Domains",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": {
+                        "interp": "<script>\nvar domain = \"dell.com\"; //align with sales page\nvar gclid = \"${c0}\"; //google\nvar event_id = \"${c1}\"; //cj\nvar xtra = \"${c2}\"; //meliuz\n\n\nif (gclid) {\n\nvar date = new Date();\ndate.setTime(date.getTime() + (90 * 24 * 60 * 60 * 1000));\nvar expires = \"; expires=\" + date.toGMTString();\ndocument.cookie = \"VendorClid=\"+ gclid + \"; expires=\"+ expires +\"; domain=\"+ domain +\"; secure; path=/\";\n }\n\nif (event_id) {\n\nvar date = new Date();\ndate.setTime(date.getTime() + (3 * 24 * 60 * 60 * 1000));\nvar expires = \"; expires=\" + date.toGMTString();\ndocument.cookie = \"VendorClid=\"+ event_id + \"; expires=\"+ expires +\"; domain=\"+ domain +\"; secure; path=/\";\n\n }\n\nif (xtra) {\n\nvar date = new Date();\ndate.setTime(date.getTime() + (30 * 24 * 60 * 60 * 1000));\nvar expires = \"; expires=\" + date.toGMTString();\ndocument.cookie = \"VendorClid=\"+ xtra + \"; expires=\"+ expires +\"; domain=\"+ domain +\"; secure; path=/\";\n }\n</script>\n\n"
+                    }
+                },
+                "dataDef": [
+                    {
+                        "type": "qry",
+                        "value": "gclid",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "cjevent",
+                        "dataType": "string"
+                    },
+                    {
+                        "type": "qry",
+                        "value": "xtra",
+                        "dataType": "string"
+                    }
+                ]
+            },
+            {
+                "type": "element",
+                "tagId": 20610,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "4122",
+                    "tv": 4,
+                    "tdv": "b6467500-d726-11e8-bc12-1803730eb7d5"
+                },
+                "tagName": "US Amazon Dell.com Deals Content DHS Systems/EnA EN Desktop [550IMG2018]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 4
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img height='1' width='1' border='0' alt='' src='https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fid%3D5c0adc59-2934-734c-837b-9dedd77a1734%26type%3D43%26m%3D1&ex-fch=416613&ex-src=https://deals.dell.com&ex-hargs=v%3D1.0%3Bc%3D9831727217579%3Bp%3D5C0ADC59-2934-734C-837B-9DEDD77A1734' />\n\n\n"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 20998,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3565",
+                    "tv": 4,
+                    "tdv": "319bef30-1338-11e9-9081-1803730eb7d5"
+                },
+                "tagName": "US Bluekai Dell.com BK <> CNVR Sync Pixel",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//tags.bluekai.com/site/4721?redir=https%3A%2F%2Fadfarm.mediaplex.com%2Fad%2Fim%2F13044-85265-63530-0%3Fmpaltsys%3D10%26mpalt%3D%24BK_UUID\">"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 21222,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "100f12d0-2660-11e9-976a-0026b9f99174"
+                },
+                "tagName": "US Facebook Dell.com ALL - PageView [491IMG2018-00190390] ",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img height=\"1\" width=\"1\" style=\"display:none\" src=\"//www.facebook.com/tr?id=1573228282953205&ev=PageView&noscript=1\" />"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 21236,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3248",
+                    "tv": 4,
+                    "tdv": "c6082e70-28d9-11e9-9240-1803730eb7d5"
+                },
+                "tagName": "US Data Plus Math Dell.com Content ALL EN Desktop [647IMG2019-00190423]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<img src=\"//p.tvpixel.com/i?aid=dell-js-70a9d003-5284-4b96-a209-251803cb019c&e=pv&p=web&tv=1x1&cb=1681312386\" width=\"1\" height=\"1\" style=\"display: none;\"/>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 21255,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3385",
+                    "tv": 4,
+                    "tdv": "46f55ec1-297c-11e9-976a-0026b9f99174"
+                },
+                "tagName": "US Adobe HVE Share ROI Dell.com [641IMG2019]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script>\nif ($){\n\tdownloads = $('[class*=\"tabbing-button\"]');\n\tfor (i=0;i<downloads.length; i++){\n\tdownloads[i].addEventListener(\"click\",handler)\n\t}\n} else {\n\tdownloads = top.document.querySelectorAll('[class*=\"tabbing-button\"]');\n\tfor (i=0;i<downloads.length; i++){\n\tdownloads[i].addEventListener(\"click\",handler)\n\t}\n}\n\n\nfunction handler(e){\n\trand = Math.floor(Math.random() * 999999999);\n\tvar img = document.createElement('img');\n\timg.src = 'https://pixel.everesttech.net/px2/5572?px_evt=t&ev_Share=1&ev_transid='+ rand;\n\timg.async = true;\n    img.height =1;\n    img.width = 1;\n\ttop.document.body.appendChild(img);\n\te.currentTarget.removeEventListener('click', handler);\n}\n</script>"
+                }
+            },
+            {
+                "type": "element",
+                "tagId": 21417,
+                "fastfire": false,
+                "meta": {
+                    "env": "1067",
+                    "pg": "3389",
+                    "tv": 4,
+                    "tdv": "d34d8940-349b-11e9-868f-0026b9f99174"
+                },
+                "tagName": "US CNVR HVE Download ROI Dell.com [Latitude Rugged]",
+                "broadcast": {
+                    "onFail": 0,
+                    "onDone": 1
+                },
+                "auto": true,
+                "location": true,
+                "attr": {
+                    "tag": "iframe",
+                    "innerHTML": "<script>\nif ($){\n    downloads = $('a[href*=\"/Learn_Docs/\"]');\n    for (i=0;i<downloads.length; i++){\n    downloads[i].addEventListener(\"click\",handler)\n    }\n} else {\n    downloads = top.document.querySelectorAll('a[href*=\"Learn_Docs\"]');\n    for (i=0;i<downloads.length; i++){\n    downloads[i].addEventListener(\"click\",handler)\n    }\n}\n\nfunction handler(e){\n    var hveHref = e.currentTarget.getAttribute(\"href\");\n \nvar img = document.createElement('img');\n    var ifrm = document.createElement('iframe');\n    img.src = 'https://adfarm.mediaplex.com/ad/bk/12309-73735-3840-0?HVE=1&HVE_2=1&HVE_2_dell=1&HVE_US=1&HVE_US_dell=1&Download=1&Download_dell=1&Download_2=1&Download_2_dell=1&Download_dell_us=1&mpuid=1744620451'+ rand;\n    img.async = true;\n    img.height =1;\n    img.width = 1;\n    top.document.body.appendChild(img);\n    \n    e.currentTarget.removeEventListener('click', handler);\n    \n}\n</script>"
+                }
+            }
+        ]
+    }
+}
